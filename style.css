@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #976185;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 10px auto;
+    background-color: rgb(159, 125, 140);
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 10px 12px 9px rgba(25, 25, 27, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#task-list {
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 0px solid;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;
+    border: 50px solid;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 2px rgba(17, 17, 17, 0.5);
+}
+
+.task-actions {
+    display: flex;
+    justify-content: flex-end; 
+    width: 50%; 
+}
+
+.task-actions button {
+    margin-left: 10px; 
+    cursor: pointer;
+}
